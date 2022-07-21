@@ -1,3 +1,4 @@
+//step 1 Card options
 const cardArray = [
     {
         name: 'amigos_fantasmas',
@@ -37,10 +38,10 @@ const cardArray = [
     },
     {
         name: 'fantasmas',
-        img: './images/fantasmas.png'
     },
     {
         name: 'gatito',
+        img: './images/fantasmas.png'
         img: './images/gatito.png'
     },
     {
@@ -60,6 +61,8 @@ let cardsChosen = [];
 let cardsChosenIds = [];
 const cardsWon = [];
 
+
+// step 2 creat your board
 function createBoard(){
     for (let i = 0; i < cardArray.length; i++){
         const card = document.createElement('img');
@@ -73,6 +76,8 @@ function createBoard(){
 }
 createBoard();
 
+
+// check for matches
 function checkMatch(){
     const cards = document.querySelectorAll('img');
     const optionsOneId = cardsChosenIds[0];
@@ -108,7 +113,7 @@ function checkMatch(){
 
 }
 
-
+// step  3 create flipcard
 function flipCard(){
     const cardId = this.getAttribute('data-id');
     cardsChosen.push(cardArray[cardId].name);
