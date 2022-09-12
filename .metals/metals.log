@@ -11,3 +11,8 @@ INFORMACIÓN: Unsupported notification method: $/setTrace
 mar 15, 2022 8:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTrace
 [0m2022.03.15 22:05:32 INFO  shutting down Metals[0m
+[0m2022.09.12 13:09:58 INFO  Started: Metals version 0.10.9 in workspace '/home/Jahrebel/Documentos/cursos_de_Platzi/Curso_html_css3_js/reto_intensivo_JS/ejercios_javascript/ejercicios-intermedios-javascript/memory-game' for client Visual Studio Code 1.58.2.[0m
+[0m2022.09.12 13:09:59 INFO  time: initialize in 1.25s[0m
+[0m2022.09.12 13:10:01 WARN  Build server is not auto-connectable.[0m
+[0m2022.09.12 13:10:01 WARN  no build tool detected in workspace '/home/Jahrebel/Documentos/cursos_de_Platzi/Curso_html_css3_js/reto_intensivo_JS/ejercios_javascript/ejercicios-intermedios-javascript/memory-game'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2022.09.12 13:11:41 INFO  shutting down Metals[0m

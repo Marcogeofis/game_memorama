@@ -38,10 +38,10 @@ const cardArray = [
     },
     {
         name: 'fantasmas',
+        img: './images/fantasmas.png'
     },
     {
         name: 'gatito',
-        img: './images/fantasmas.png'
         img: './images/gatito.png'
     },
     {
